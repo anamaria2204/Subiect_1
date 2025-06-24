@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="MainGame.Server" target="17" />
+      <module name="MainGame.Server.main" target="17" />
+      <module name="MainGame.Server.test" target="17" />
+      <module name="Model" target="24" />
+      <module name="Model.main" target="24" />
+      <module name="Model.test" target="24" />
+      <module name="Service" target="17" />
+      <module name="Service.main" target="17" />
+      <module name="Service.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

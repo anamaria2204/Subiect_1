@@ -1,0 +1,52 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cell {
+  background-color: green;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.cell.disabled {
+  pointer-events: none;
+  background-color: darkgreen;
+  opacity: 0.7;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cell {
+  background-color: green;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.cell.disabled {
+  pointer-events: none;
+  background-color: darkgreen;
+  opacity: 0.7;
+}
